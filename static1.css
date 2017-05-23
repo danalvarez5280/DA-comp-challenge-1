@@ -1,0 +1,221 @@
+body{
+  box-sizing: border-box;
+  font-family: 'Audiowide';
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+  width: 100%;
+}
+
+.bender-icon{
+  display: none;
+  height: 70px;
+  width: 70px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#left-half {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  max-width: 60%;
+}
+.bio {
+  margin: 10px;
+}
+
+.buttons{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.small-icon{
+  height: 15px;
+  width: 15px;
+}
+
+.info{
+  background-color: #337856;
+  border: 3px solid #F2F5EE;
+  border-radius: 10px 5px;
+  color: #F2F5EE;
+  font-family: 'Audiowide';
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.info:hover {
+  background-color: #FF2503;
+  cursor: pointer;
+}
+
+#right-half {
+  align-items: center;
+  background-image: url(http://pre02.deviantart.net/d8d6/th/pre/i/2015/238/e/2/bender_by_thuddleston-d978ryn.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  float: right;
+  height: 100vh;
+  position: relative;
+  width: 40%;
+}
+
+.box {
+  align-items: center;
+  color: #F2F5EE;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh /3);
+  justify-content: center;
+  text-align: center;
+  width: calc(100% /3);
+}
+
+.icons{
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+}
+.box1 {
+  align-items: center;
+  background-color: #337856;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: calc((100%/3) * 2);
+}
+
+.box2 {
+  background-color: #FF2503;
+}
+
+.box3 {
+  background-color: #F2F5EE;
+    color: #06373E;
+}
+
+.box4 {
+  background-color: #90CF8D;
+  color: #06373E;
+}
+
+.box5 {
+  background-color: #337856;
+}
+
+.box6 {
+  background-color: #FF2503;
+}
+
+.box7 {
+  background-color: #F2F5EE;
+    color: #06373E;
+}
+
+.box8 {
+  background-color: #90CF8D;
+    color: #06373E;
+}
+
+.counter-container{
+  position:absolute;
+  right: 5px;
+  top: 10px;
+}
+
+.counter {
+  background-color: #F2F5EE;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.tick2 {
+  background-color: #337856;
+  opacity: 0.7;
+}
+
+.tick3 {
+  background-color: #337856;
+  opacity: 0.7;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.arrows{
+  background-color: #337856;
+  border: 2px solid #06373E;
+  border-radius: 50%;
+  color: #F2F5EE;
+  cursor: pointer;
+  font-size: 25px;
+  height: 50px;
+  opacity: 0.6;
+  text-align: center;
+  width: 50px;
+}
+
+
+@media (max-width: 1024px) {
+  .page-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .box{
+    flex-direction: row;
+    height: auto;
+    justify-content: space-around;
+    padding: 5px 15px;
+    width: 100%;
+  }
+
+  .box1{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .buttons{
+    margin: 10px 0;
+  }
+
+  #left-half{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  #right-half{
+    width: 100%;
+  }
+
+  .bender-icon{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+
+}
