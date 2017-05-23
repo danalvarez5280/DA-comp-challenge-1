@@ -1,4 +1,5 @@
 body{
+  border: 20px solid #90CF8D;
   box-sizing: border-box;
   font-family: 'Audiowide';
   margin: 0;
@@ -136,7 +137,7 @@ h1 {
 .counter {
   background-color: #F2F5EE;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: wait;
   display: inline-block;
   height: 15px;
   width: 15px;
@@ -163,7 +164,7 @@ h1 {
   border: 2px solid #06373E;
   border-radius: 50%;
   color: #F2F5EE;
-  cursor: pointer;
+  cursor: wait;
   font-size: 25px;
   height: 50px;
   opacity: 0.6;
